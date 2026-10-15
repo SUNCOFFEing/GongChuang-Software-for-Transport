@@ -14,7 +14,7 @@ try:
 
     # 设置摄像头的分辨率，这里设置为 1280x720
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720) 
 
     while True:
         # 捕获一帧视频
