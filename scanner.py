@@ -10,7 +10,7 @@ try:
     # 检查摄像头是否成功打开
     if not cap.isOpened():
         print("无法打开摄像头")
-        exit()
+        exit() #退出
 
     # 设置摄像头的分辨率，这里设置为 1280x720
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)

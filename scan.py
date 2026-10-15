@@ -13,7 +13,7 @@ while True:
 
     if not ret:
         print("无法接收帧（摄像头流结束？）")
-        break
+        break #break
 
     # 在窗口中显示画面
     cv2.imshow('Camera Feed', frame)
